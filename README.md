@@ -11,7 +11,7 @@
 - [x] \#1.0 Introduction to useState  </br>
   - [리액트 훅이 나온 이유, 클래스와 차이점, 간단한 사용법](https://www.youtube.com/watch?v=yS-BU6eYUDE)
 - [x] \#1.1 userInput  </br>
-- [ ] \#1.2 userInput part Two </br>
+- [x] \#1.2 userInput part Two </br>
 - [ ] \#1.3 useTabs </br>
 
 ### 2. USEEFFECT
