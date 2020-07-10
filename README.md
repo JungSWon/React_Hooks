@@ -16,7 +16,7 @@
 
 ### 2. USEEFFECT
 - [x] \#2.0 Introduction to useEffect
-- [ ] \#2.1 useTitle
+- [x] \#2.1 useTitle
 - [ ] \#2.2 useClick
 - [ ] \#2.3 useConfirm & useNetwork
 - [ ] \#2.4 useBeforeLeave
@@ -32,7 +32,7 @@
 
 Collection of React Hooks ready to install with NPM
 
-- [ ] useTitle : React doc title 을 hook과 함께 바꾸는 것 
+- [x] useTitle : React doc title 을 hook과 함께 바꾸는 것 
 - [x] useInput : input역할
 - [ ] usePageLeave : 유저가 페이지를 벗어나는 시점을 모니터하고 함수 실행 
 - [ ] useClick : 클릭 시점 모니터
