@@ -15,14 +15,25 @@
 - [x] \#1.3 useTabs </br>
 
 ### 2. USEEFFECT
+- [x] \#2.0 Introduction to useEffect
+- [ ] \#2.1 useTitle
+- [ ] \#2.2 useClick
+- [ ] \#2.3 useConfirm & useNetwork
+- [ ] \#2.4 useBeforeLeave
+- [ ] \#2.5 useFadeIn & useNetwork
+- [ ] \#2.6 useScroll $ useFullscreen
+- [ ] \#2.7 useNotification
+- [ ] \#2.8 useAxios
+- [ ] \#2.9 Conclusions
+- [ ] \#2.10 Publishing to NPM
+- [ ] \#2.11 That to learn next
 
-
-##  Hook List 
+## Custom Hooks what we're making 
 
 Collection of React Hooks ready to install with NPM
 
 - [ ] useTitle : React doc title 을 hook과 함께 바꾸는 것 
-- [ ] useInput : input역할
+- [x] useInput : input역할
 - [ ] usePageLeave : 유저가 페이지를 벗어나는 시점을 모니터하고 함수 실행 
 - [ ] useClick : 클릭 시점 모니터
 - [ ] useFadeIn : 어떤 element든 애니메이션을 element안으로 fade in 하게 함 
