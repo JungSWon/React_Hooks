@@ -1,20 +1,30 @@
-import React, { useRef } from "react";
+import React, {useEffect, useRef} from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 
+const useClick = onClick =>{
+  // u
+  const element = useRef();
+  // useEffect( 함수인자 ) 랜더 후 실행
+  useEffect(()=>{
+    if(element.current){
+      element.current.addEventListener('click', onClick);
+    }
+  })
+// return element, 즉 ref요소를 return 해야 reference 연결이 된다.
+  return element;
+}
 const App = () => {
-  // useRef() = document.selectById , selectByClassName
-  const input = useRef();
-  //  useref() 는 current라는 객체를 담는다.(=레퍼런스 대상)
-  // current: <input placeholder="lalaa"></input>
-  // setTimeout(() => console.log(input), 2000);
-  setTimeout(() => input.current.focus(), 2000);
+  const sayHello = () => console.log('sayHello')
+  const title = useClick(sayHello);
   return (
-      <div className="App">
-        <input ref={input} placeholder="lalaa" />
-      </div>
+    <div className="App">
+      <h1 ref={title}>hi</h1>
+
+    </div>
   );
 };
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
