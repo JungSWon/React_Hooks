@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
 
 // 마우스가 페이지를 벗어날때 실행
 const useBeforeLeave = onBefore => {
@@ -19,16 +18,3 @@ const useBeforeLeave = onBefore => {
     return () => document.removeEventListener("mouseleave", handle);
   });
 };
-
-const App = () => {
-  const begForLife = () => console.log("please dont leave");
-  useBeforeLeave(begForLife);
-  return (
-      <div className="App">
-        <h1> Yey</h1>
-      </div>
-  );
-};
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);

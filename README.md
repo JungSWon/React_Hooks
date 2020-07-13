@@ -19,7 +19,7 @@
 - [x] \#2.1 useTitle
 - [x] \#2.2 useClick
 - [x] \#2.3 useConfirm & usePreventLeave
-- [ ] \#2.4 useBeforeLeave
+- [x] \#2.4 useBeforeLeave
 - [ ] \#2.5 useFadeIn & useNetwork
 - [ ] \#2.6 useScroll $ useFullscreen
 - [ ] \#2.7 useNotification
@@ -34,7 +34,7 @@ Collection of React Hooks ready to install with NPM
 
 - [x] useTitle : React doc title 을 hook과 함께 바꾸는 것 
 - [x] useInput : input역할
-- [ ] usePageLeave : 유저가 페이지를 벗어나는 시점을 모니터하고 함수 실행 
+- [x] useBeforeLeave : 유저가 페이지를 벗어나는 시점을 모니터하고 함수 실행 
 - [x] useClick : 클릭 시점 모니터
 - [ ] useFadeIn : 어떤 element든 애니메이션을 element안으로 fade in 하게 함 
 - [ ] useFullscreen : 어떤 element든 Full screen으로 만들거나 다시 돌아가게 함 
