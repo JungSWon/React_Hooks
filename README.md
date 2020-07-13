@@ -26,7 +26,7 @@
 - [ ] \#2.8 useAxios
 - [ ] \#2.9 Conclusions
 - [ ] \#2.10 Publishing to NPM
-- [ ] \#2.11 That to learn next
+- [ ] \#2.11 That to learn next 
 
 ## Custom Hooks what we're making 
 
@@ -36,7 +36,7 @@ Collection of React Hooks ready to install with NPM
 - [x] useInput : input역할
 - [x] useBeforeLeave : 유저가 페이지를 벗어나는 시점을 모니터하고 함수 실행 
 - [x] useClick : 클릭 시점 모니터
-- [ ] useFadeIn : 어떤 element든 애니메이션을 element안으로 fade in 하게 함 
+- [x] useFadeIn : 어떤 element든 애니메이션을 element안으로 fade in 하게 함 
 - [ ] useFullscreen : 어떤 element든 Full screen으로 만들거나 다시 돌아가게 함 
 - [x] useHover : 호버 시점 모니터 
 - [ ] useNetwork : 온/오프라인 상태 감지  
