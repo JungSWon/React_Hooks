@@ -20,7 +20,7 @@
 - [x] \#2.2 useClick
 - [x] \#2.3 useConfirm & usePreventLeave
 - [x] \#2.4 useBeforeLeave
-- [ ] \#2.5 useFadeIn & useNetwork
+- [x] \#2.5 useFadeIn & useNetwork
 - [ ] \#2.6 useScroll $ useFullscreen
 - [ ] \#2.7 useNotification
 - [ ] \#2.8 useAxios
@@ -39,7 +39,7 @@ Collection of React Hooks ready to install with NPM
 - [x] useFadeIn : 어떤 element든 애니메이션을 element안으로 fade in 하게 함 
 - [ ] useFullscreen : 어떤 element든 Full screen으로 만들거나 다시 돌아가게 함 
 - [x] useHover : 호버 시점 모니터 
-- [ ] useNetwork : 온/오프라인 상태 감지  
+- [x] useNetwork : 온/오프라인 상태 감지  
 - [ ] useNotification : Notification API 사용시 알림 보냄 
 - [ ] useScroll : 스크롤 모니터 
 - [x] useTabs : 탭을 편리하게 만들어줌 
