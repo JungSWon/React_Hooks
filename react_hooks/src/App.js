@@ -1,25 +1,31 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
-const useHover = onHover => {
-  if (typeof onHover !== "function") {
+// 이벤트 실행을 일단 막고, 컨펌 후 실행
+const useConfirm = (message='', onCallback, onCancel) => {
+  if (typeof onCallback && onCallback !== "function") {
     return;
   }
-  const element = useRef();
-  useEffect(() => {
-    if (element.current) {
-      element.current.addEventListener("mouseenter", onHover);
+  const confirmAction = () => {
+    // confirm in JS : 확인창 띄우기
+    if (confirm(message)) {
+      onCallback();
+    } else {
+      // confirm에서 취소를 눌렀을때
+      onCancel();
     }
-  });
-  return element;
+  };
+  return confirmAction;
 };
 
 const App = () => {
-  const sayHello = () => console.log("HELLO THERE HOOK HOOK HOOK!");
-  const greeting = useHover(sayHello);
+  const deleteWorld = () => console.log("DEL YOUR WORLD, FREEDOM YAYAY");
+  const abort = () => console.log("Aborted..");
+  const confirmDelete = useConfirm("ARE YOU SURESURE?", deleteWorld, abort);
   return (
       <div className="App">
-        <h1 ref={greeting}>Hello Yay</h1>
+        <h1>Hey</h1>
+        <button onClick={confirmDelete}>Delete the world</button>
       </div>
   );
 };
