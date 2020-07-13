@@ -18,7 +18,7 @@
 - [x] \#2.0 Introduction to useEffect
 - [x] \#2.1 useTitle
 - [x] \#2.2 useClick
-- [ ] \#2.3 useConfirm & useNetwork
+- [x] \#2.3 useConfirm & usePreventLeave
 - [ ] \#2.4 useBeforeLeave
 - [ ] \#2.5 useFadeIn & useNetwork
 - [ ] \#2.6 useScroll $ useFullscreen
@@ -43,7 +43,7 @@ Collection of React Hooks ready to install with NPM
 - [ ] useNotification : Notification API 사용시 알림 보냄 
 - [ ] useScroll : 스크롤 모니터 
 - [x] useTabs : 탭을 편리하게 만들어줌 
-- [ ] usePreventLeave : 변경사항을 저장하지 않고 페이지를 벗어나도록 함
+- [x] usePreventLeave : 변경사항을 저장하지 않고 페이지를 벗어나도록 함
     - actually It's not a react hook as not to use useEffect or useState 
 - [x] useConfirm 
     - actually It's not a react hook as not to use useEffect or useState
