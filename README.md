@@ -25,7 +25,9 @@
 - [x] \#2.6 useScroll & useFullscreen
 - [x] \#2.7 useNotification
 - [x] \#2.8 useAxios
-- [ ] \#2.9 Conclusions
+- [x] \#2.9 Conclusions
+    - 리액트 내장 훅 또는 vanilla React로 Crazy Creative 커스텀 훅을 만들어보자
+    - "Use Hooks, Use Your Brain!"-Nicolas,Nomad Coder  
 - [ ] \#2.10 Publishing to NPM
 - [ ] \#2.11 That to learn next 
 

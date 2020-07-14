@@ -1,0 +1,33 @@
+{
+  "name": "@nooks_sw/use_title",
+  "version": "1.0.0",
+  "description": "React Hooks to update your doc title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JungSWon/React_Hooks.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "title"
+  ],
+  "author": "SWonJung <sw.onandon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JungSWon/React_Hooks/issues"
+  },
+  "homepage": "https://github.com/JungSWon/React_Hooks#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {}
+}
