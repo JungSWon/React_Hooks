@@ -12,9 +12,20 @@ const useAxios = (opts, axiosInstance = defaultAxios) => {
         error: null,
         data: null
     });
+
+    const [trigger, setTrigger] = useState(0);
     if (!opts.url) {
         return;
     }
+
+    const refetch = () => {
+        setState({
+            ...state,
+            loading: true
+        });
+        // 랜덤한 숫자를 넣기위해 Date.now() 활용
+        setTrigger(Date.now());
+    };
 
     useEffect(() => {
         axiosInstance(opts)
@@ -28,8 +39,11 @@ const useAxios = (opts, axiosInstance = defaultAxios) => {
             .catch(error => {
                 setState({ ...state, loading: false, error });
             });
-    }, []);
-    return state;
+// refetch(다시 가져오기) 구현
+        // defendency에 무언가를 넣는다면, defendency(trigger)가 바뀌고
+        // 그러면 useEffect는 access request를 다시 실행 할 것이다.
+    }, [trigger]);
+    return { ...state, refetch };
 };
 
 export default useAxios;

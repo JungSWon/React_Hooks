@@ -12,6 +12,8 @@ const App = () => {
   return (
       <div className="App">
         <h1>{data && data.status}</h1>
+        <h2>{loading && "Loading.."}</h2>
+        <button onClick={refetch}>Refetch</button>
       </div>
   );
 };
