@@ -29,7 +29,7 @@
     - 리액트 내장 훅 또는 vanilla React로 Crazy Creative 커스텀 훅을 만들어보자
     - "Use Hooks, Use Your Brain!"-Nicolas,Nomad Coder  
 - [x] \#2.10 Publishing to NPM
-- [ ] \#2.11 That to learn next 
+- [x] \#2.11 That to learn next 
 
 ## Custom Hooks what we're making 
 
